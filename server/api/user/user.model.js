@@ -9,8 +9,8 @@ var UserSchema = new Schema({
   email: String,
   id: Number,
   facebook_id: String,
-  friends : [
-  ]
+  friends : [],
+  events : []
 });
 
 module.exports = mongoose.model('User', UserSchema);
