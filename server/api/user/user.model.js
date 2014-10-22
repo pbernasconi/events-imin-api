@@ -10,7 +10,6 @@ var UserSchema = new Schema({
   id: Number,
   facebook_id: String,
   friends : [
-
   ]
 });
 
